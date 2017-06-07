@@ -1,0 +1,10 @@
+﻿type project
+id PaketSandbox.Universe
+version 1.0.0
+authors jgrandydev
+description PaketSandbox.Universe
+symbols false
+include-pdbs true
+
+files
+	Universe.xml ==> content

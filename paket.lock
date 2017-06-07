@@ -1,0 +1,4 @@
+FRAMEWORK: NET461
+NUGET
+  remote: https://www.myget.org/F/paket
+    PaketSandbox.Life (1.0.0)
