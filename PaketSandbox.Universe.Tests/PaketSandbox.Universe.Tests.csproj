@@ -7,8 +7,8 @@
     <ProjectGuid>{15297F97-EFD5-48ED-B4DA-7AC306E15673}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PaketSandbox.Life.Tests</RootNamespace>
-    <AssemblyName>PaketSandbox.Life.Tests</AssemblyName>
+    <RootNamespace>PaketSandbox.Universe.Tests</RootNamespace>
+    <AssemblyName>PaketSandbox.Universe.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -37,9 +37,6 @@
     <Reference Include="PaketSandbox.Life, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\PaketSandbox.Life.1.0.0\lib\net461\PaketSandbox.Life.dll</HintPath>
     </Reference>
-    <Reference Include="PaketSandbox.Universe">
-      <HintPath>..\PaketSandbox.Universe\bin\Debug\PaketSandbox.Universe.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,6 +55,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Life.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PaketSandbox.Universe\PaketSandbox.Universe.csproj">
+      <Project>{84032f82-c57c-47d7-b5ff-7540cfb94b7e}</Project>
+      <Name>PaketSandbox.Universe</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
