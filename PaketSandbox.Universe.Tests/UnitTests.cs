@@ -9,7 +9,7 @@ namespace PaketSandbox.Universe.Tests
         [Test]
         public void AnswerToUniverse()
         {
-            Assert.IsTrue(Universe.Answer()  == 42);
+            Assert.IsTrue(Universe.Answer()  == 41);
         }
     }
 }

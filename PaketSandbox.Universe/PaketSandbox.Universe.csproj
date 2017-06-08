@@ -31,8 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PaketSandbox.Life">
-      <HintPath>..\packages\PaketSandbox.Life.1.0.0\lib\net461\PaketSandbox.Life.dll</HintPath>
+    <Reference Include="PaketSandbox.Life, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PaketSandbox.Life.1.1.0\lib\net461\PaketSandbox.Life.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,9 +53,7 @@
     <None Include="paket.template" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Life.xml">
-      <Paket>True</Paket>
-    </Content>
+    <Content Include="Life.xml" />
     <Content Include="Universe.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
