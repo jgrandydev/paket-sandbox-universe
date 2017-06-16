@@ -34,8 +34,8 @@
     <Reference Include="nunit.framework, Version=3.7.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.7.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="PaketSandbox.Life, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PaketSandbox.Life.1.1.0\lib\net461\PaketSandbox.Life.dll</HintPath>
+    <Reference Include="PaketSandbox.Life, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PaketSandbox.Life.1.2.0\lib\net461\PaketSandbox.Life.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
